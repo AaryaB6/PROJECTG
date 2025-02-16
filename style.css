@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .3s;
+}
+
+:root {
+    --primary: #00e926;
+    --white: #fff;
+    --green: rgba(8, 96, 8, 0.905);
+    --hue: 152;
+    --header-height: 3.5rem;
+    --box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+.header .navbar a {
+    font-family: 'Poppins', sans-serif;
+    color: var(--title-clolor);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 1.5rem;
+
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: (var(--primary));
+}
+
+.header .logo i {
+    padding-left: .5rem;
+    color: var(--primary);
+}
+
+.header .navbar a:hover {
+    color: var(--primary);
+
+}
+
+.header.navbar a.active,
+.header.navbar a:hover {
+    color: var(--primary);
+}
+
+
+/* Dark Mode*/
+
+
+body {
+    padding: 10% 3% 10% 3%;
+    text-align: center;
+}
+
+img {
+    height: 140px;
+    width: 140px;
+}
+
+h1 {
+    color: #32a852;
+}
+
+.mode {
+    position: relative;
+    float: right;
+   }
+
+.change {
+    cursor: pointer;
+    
+    border-radius: 10%;
+    width: 20px;
+    text-align: center;
+    padding: 6px;
+    margin-left: 8px;
+    background-color: #9ce5a8;
+}
+
+.dark {
+    background-color: #222;
+    color: #e6e6e6;
+}
