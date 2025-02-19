@@ -100,3 +100,91 @@ h1 {
     background-color: #222;
     color: #e6e6e6;
 }
+/*Home Section*/
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .9rem 2rem;
+    background: var(--green);
+    color: #fff;
+    font-size: 1.7rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #333;
+}
+.home{
+   padding-top: 40px;
+
+}
+.home .home-slider{
+    box-shadow: 0.5rem, 1rem rgba(0, 0, 0, 0.3);
+    border-top: 0;
+
+}
+.home .home-slider .box{
+    background-size: cover !important;
+    background-position:center !important ;
+    min-height: 55rem;
+    position: relative;
+}
+.home .home-slider .box .content{
+    position: absolute;
+    top: 29%;
+    right: 45%;
+    transform: translateY(-50%);
+    max-width: 60rem;
+}
+.home .home-slider .box .content span{
+    font-size: 3rem;
+    color: #444;
+    
+}
+.home .home-slider .box .content h3{
+     font-size: 4rem;
+     color: #333;
+     padding: 2rem;
+     
+}
+/*About*/
+.about-us-container{
+    padding-top: 8%;
+    height: 500px;
+    display: flex;
+    
+}
+.description{
+    text-align: center;
+    
+}
+.about-us-tittle{
+   padding: 16px;
+   color: var(--primary);
+   text-transform: uppercase;
+   font-weight: bolder;
+   font-size: 40px; 
+   margin-left: 55rem;
+   margin-top: 80px
+}
+.about-us-content{
+   color: #665050;
+   font-size: 15px; 
+  margin-left: 55rem;
+}
+
+.mySlides {
+    width: 200px;  
+    height: 900px;  
+    max-width: 4000px;
+    display: block;
+    margin: 20px;
+    display: none;
+    
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: .5s;
+}
+
